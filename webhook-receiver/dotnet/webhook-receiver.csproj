@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>WebhookReceiver</RootNamespace>
+    <AssemblyName>webhook-receiver</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <!--
+    ASP.NET Core ships in the shared framework (Microsoft.AspNetCore.App), pulled
+    in by the Web SDK. No external NuGet packages required.
+  -->
+
+</Project>

@@ -1,0 +1,42 @@
+# Secrets — never commit a real key
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Go
+*.test
+/**/bin/
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+# PHP
+/**/vendor/
+
+# Java
+target/
+*.class
+
+# .NET
+bin/
+obj/
+
+# Local upsert sinks produced by the backfill sample
+backfill-store.json
+*.local.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

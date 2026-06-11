@@ -1,0 +1,17 @@
+{
+  "name": "propsocket-webhook-receiver-node",
+  "version": "1.0.0",
+  "description": "PropSocket webhook receiver sample (Node.js) — verifies HMAC signatures and dedupes events.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}

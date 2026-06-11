@@ -1,0 +1,8 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+ruby ">= 3.1"
+
+# Faraday gives an idiomatic, dependency-light HTTP client.
+gem "faraday", "~> 2.9"

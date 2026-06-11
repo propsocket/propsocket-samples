@@ -1,0 +1,9 @@
+{
+    "name": "propsocket/webhook-receiver-php",
+    "description": "PropSocket webhook receiver sample (PHP) — dependency-free front controller; verifies signature, dedupes, acks fast.",
+    "type": "project",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.1"
+    }
+}

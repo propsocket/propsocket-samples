@@ -1,0 +1,17 @@
+{
+  "name": "propsocket-backfill-paginator-node",
+  "version": "1.0.0",
+  "description": "PropSocket backfill paginator sample (Node.js) — paginates all entities into an idempotent upsert sink.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node backfill.js"
+  },
+  "dependencies": {
+    "axios": "1.7.9"
+  }
+}

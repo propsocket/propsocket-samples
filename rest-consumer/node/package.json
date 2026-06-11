@@ -1,0 +1,17 @@
+{
+  "name": "propsocket-rest-consumer-node",
+  "version": "1.0.0",
+  "description": "PropSocket REST API consumer sample (Node.js) — lists an entity with offset pagination.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "1.7.9"
+  }
+}
